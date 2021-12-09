@@ -13,7 +13,7 @@ import java.util.List;
  * @Description:
  */
 @Data
-public class HeaviestCache {
+public class HeaviestHandler {
 
     private List<Node> table = new ArrayList<>();
 
@@ -23,12 +23,12 @@ public class HeaviestCache {
 
     private Node tail;
 
-    HeaviestCache(int capacity) {
+    HeaviestHandler(int capacity) {
         this();
         this.capacity = capacity;
     }
 
-    HeaviestCache() {
+    HeaviestHandler() {
         head = new Node(-1);
         tail = new Node(-1);
         head.next = tail;
@@ -36,19 +36,22 @@ public class HeaviestCache {
     }
 
     public void put(String word) {
-        if (word == null || word.intern().length() == 0) {
+        if (word == null || word.length() == 0) {
             return;
         }
         Node temp = head.next;
         Node node = new Node(word);
+        //System.out.println("word=" + node.getWord() + "    weight=" + node.getWeight());
         while (temp != null) {
             if (temp.weight < node.weight) {
+                // 添加到temp的前面
                 node.next = temp;
                 node.pre = temp.pre;
                 temp.pre.next = node;
                 temp.pre = node;
                 table.add(node);
                 if (table.size() > capacity) {
+                    // 移除表尾部
                     Node removeNode = removeTail();
                     table.remove(removeNode);
                 }
@@ -70,6 +73,30 @@ public class HeaviestCache {
         node.next.pre = node.pre;
     }
 
+    /**
+     * 处理结果中的标点符号
+     */
+    public void handlePunctuation() {
+        table.forEach(node -> node.setWord(getPrimeWord(node.getWord())));
+    }
+
+
+    private String getPrimeWord(String word) {
+        if (word.contains(",")) {
+            word = word.replace(",", "");
+        }
+        if (word.contains(".")) {
+            word = word.replace(".", "");
+        }
+        if (word.contains(";")) {
+            word = word.replace(";", "");
+        }
+        if (word.contains("!")) {
+            word = word.replace("!", "");
+        }
+        return word;
+    }
+
 
     @Data
     @AllArgsConstructor
@@ -88,15 +115,27 @@ public class HeaviestCache {
         }
 
         Node(String word) {
-            this.word = word;
+            this.word =word;
             this.weight = getWordWeight(word);
         }
 
+
+        /**
+         * 获取单词权重
+         *
+         * @param word
+         * @return
+         */
         private Integer getWordWeight(String word) {
+            // 大小写权重相同
             word = word.toLowerCase();
             int sum = 0;
             for (int i = 0; i < word.length(); i++) {
-                sum += word.charAt(i) - 'a';
+                int w = word.charAt(i) - 'a';
+                // 其他符号不加入权重
+                if (w >=0 && w <=25) {
+                    sum += w;
+                }
             }
             return sum;
         }
