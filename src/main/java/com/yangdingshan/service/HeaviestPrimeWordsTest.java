@@ -43,8 +43,8 @@ public class HeaviestPrimeWordsTest {
 
         HeaviestHandler handler = new HeaviestHandler(3);
         String[] split = str.split(" ");
-        for (int i = 0; i < split.length; i++) {
-            handler.put(split[i].intern());
+        for (String s : split) {
+            handler.put(s.intern());
         }
         handler.handlePunctuation();
         List<HeaviestHandler.Node> table = handler.getTable();
