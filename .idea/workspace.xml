@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c0a0cef-44ae-44f9-bf38-6463bb289912" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/heaviest-prime-words.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c0a0cef-44ae-44f9-bf38-6463bb289912" name="Default" comment="message:  top 3 heaviest prime words appeared in If (by Rudyard Kipling)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangdingshan/service/HeaviestCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangdingshan/service/HeaviestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangdingshan/service/HeaviestPrimeWordsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangdingshan/service/HeaviestPrimeWordsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangdingshan/service/HeaviestCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangdingshan/service/HeaviestCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangdingshan/service/HeaviestPrimeWordsService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,30 +125,53 @@
       <option name="presentableId" value="Default" />
       <updated>1638965980916</updated>
       <workItem from="1638965985124" duration="10500000" />
-      <workItem from="1639015259944" duration="6292000" />
+      <workItem from="1639015259944" duration="7987000" />
     </task>
+    <task id="LOCAL-00001" summary="message:  top 3 heaviest prime words appeared in If (by Rudyard Kipling)">
+      <created>1639039060036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639039060040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="message:  top 3 heaviest prime words appeared in If (by Rudyard Kipling)">
+      <created>1639039123340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639039123340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="message:  top 3 heaviest prime words appeared in If (by Rudyard Kipling)" />
+    <option name="LAST_COMMIT_MESSAGE" value="message:  top 3 heaviest prime words appeared in If (by Rudyard Kipling)" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="358" key="GridCell.Tab.0.bottom" timestamp="1639038389115">
+    <state x="496" y="111" key="CommitChangelistDialog2" timestamp="1639039121145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639038389115" />
-    <state width="1877" height="358" key="GridCell.Tab.0.center" timestamp="1639038389114">
+    <state x="496" y="111" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639039121145" />
+    <state width="1877" height="358" key="GridCell.Tab.0.bottom" timestamp="1639107156301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="358" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639038389114" />
-    <state width="1877" height="358" key="GridCell.Tab.0.left" timestamp="1639038389114">
+    <state width="1877" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639107156301" />
+    <state width="1877" height="358" key="GridCell.Tab.0.center" timestamp="1639107156301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="358" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639038389114" />
-    <state width="1877" height="358" key="GridCell.Tab.0.right" timestamp="1639038389115">
+    <state width="1877" height="358" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639107156301" />
+    <state width="1877" height="358" key="GridCell.Tab.0.left" timestamp="1639107156300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="358" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639038389115" />
+    <state width="1877" height="358" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639107156300" />
+    <state width="1877" height="358" key="GridCell.Tab.0.right" timestamp="1639107156301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639107156301" />
     <state width="1877" height="356" key="GridCell.Tab.1.bottom" timestamp="1639037700717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,5 +192,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639020608646" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1639039124999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639039124999" />
   </component>
 </project>
